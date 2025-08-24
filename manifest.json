@@ -1,0 +1,12 @@
+{
+    "name": "lore-weaver",
+    "displayName": "Lore Weaver",
+    "author": "Assistant",
+    "version": "1.0.0",
+    "description": "Loads and syncs lorebook entries from external text files and JSON configurations.",
+    "tags": ["lorebook", "files", "automation"],
+    "publish": {
+        "script": "script.js",
+        "style": "style.css"
+    }
+}
