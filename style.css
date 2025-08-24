@@ -1,0 +1,46 @@
+
+.lore-weaver-settings {
+    background-color: var(--background-color-hightlight);
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.lore-weaver-settings h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 5px;
+}
+
+.lore-weaver-settings .buttons {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.lore-weaver-settings .checkbox_item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+#lore-weaver-status {
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    min-height: 20px;
+}
+
+#lore-weaver-status.success {
+    background-color: rgba(40, 167, 69, 0.2);
+    color: #28a745;
+}
+
+#lore-weaver-status.error {
+    background-color: rgba(220, 53, 69, 0.2);
+    color: #dc3545;
+}
+
+#lore-weaver-status.loading {
+    color: #007bff;
+}
